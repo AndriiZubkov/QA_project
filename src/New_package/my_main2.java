@@ -8,7 +8,7 @@ public class my_main2 {
         double b=Math.abs(a-n);
         double c=Math.abs(a-m);
         if (b==c){
-            System.out.println("Числа "+n +" и "+m + " равноудалены от "+a);
+            System.out.println("Числа "+n+"и"+m+" равноудалены от "+a);
         }
         if(b>c){
             System.out.println("Число "+m+" ближе к "+a);
