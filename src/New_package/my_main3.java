@@ -7,11 +7,11 @@ public class my_main3 {
         int b = (n%100)/10;
         int c = n%10;
         if(a>=b&&a>=c) {
-            System.out.println("В числе "+n+" наибольшая цифра "+a);
+            System.out.println("В "+n+" наибольшая цифра "+a);
         } else if(b>=a&&b>=c) {
-            System.out.println("В числе "+n+" наибольшая цифра "+b);
+            System.out.println("В "+n+" наибольшая цифра "+b);
         } else {
-            System.out.println("В числе "+n+" наибольшая цифра "+c);
+            System.out.println("В "+n+" наибольшая цифра "+c);
         }
     }
 }
